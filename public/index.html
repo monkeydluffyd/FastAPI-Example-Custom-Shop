@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/main.css" />
+    <title>G'WoodyShop - Главная</title>
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">G'WoodyShop</div>
+      <nav>
+        <a href="/">Главная</a>
+        <a href="/catalog">Каталог</a>
+        <a href="/cart">Корзина</a>
+      </nav>
+    </header>
+    <div class="main-content">
+      <model-viewer
+        src="static\promethazinelean.glb"
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        camera-controls
+        tone-mapping="neutral"
+        poster="poster.webp"
+        shadow-intensity="1"
+        camera-orbit="30.62deg 74.72deg 4.156m"
+        field-of-view="30deg"
+        min-camera-orbit="auto auto 4.156m"
+        min-field-of-view="30deg"
+        auto-rotate
+      >
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <div id="ar-prompt">
+          <img src="https://modelviewer.dev/shared-assets/icons/hand.png" />
+        </div>
+      </model-viewer>
+      <main>
+        <h1>Добро пожаловать в G'WoodyShop</h1>
+        <p>
+          G'WoodyShop – это онлайн-платформа для уникального и самобытного
+          искусства. Мы предлагаем авторские картины, оригинальные футболки,
+          эксклюзивные постеры и другие творческие изделия, созданные вручную.
+          Каждый предмет в нашем магазине несёт в себе креативность и
+          индивидуальность, отражая глубокую страсть к искусству. Наша продукция
+          – это не просто товары, а настоящие произведения, созданные с душой и
+          вниманием к деталям. Выбирайте и приобретайте уникальные вещи, которые
+          дополнят ваш стиль и интерьер.
+        </p>
+        <a href="/catalog" class="cta-button">Просмотреть каталог</a>
+      </main>
+    </div>
+    <footer>&copy; 2024 G'WoodyShop. Все права защищены.</footer>
+  </body>
+</html>
