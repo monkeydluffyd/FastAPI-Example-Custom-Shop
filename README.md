@@ -12,14 +12,14 @@
 
 Используем uvicorn
 
-![Запуск][(https://github.com/monkeydluffyd/FastAPI-Example-Custom-Shop/blob/main/screenshots/start.png)
+![Запуск](https://github.com/monkeydluffyd/FastAPI-Example-Custom-Shop/blob/main/screenshots/start.png)
 
 ## 2. Интерфейс пользователя
 
+Здесь представлены скриншоты интерфейса пользователя, чтобы показать внешний вид приложения.
+
 ![Интерфейс пользователя](https://github.com/monkeydluffyd/FastAPI-Example-Custom-Shop/blob/main/screenshots/mainPage.png)
 ![Интерфейс пользователя](https://github.com/monkeydluffyd/FastAPI-Example-Custom-Shop/blob/main/screenshots/endpoint404.png)
-
-Здесь представлены скриншоты интерфейса пользователя, чтобы показать внешний вид приложения.
 
 ## 4. Установка и настройка
 
