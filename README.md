@@ -12,7 +12,7 @@
 
 Используем uvicorn
 
-[![Запуск][(https://github.com/monkeydluffyd/FastAPI-Example-Custom-Shop/blob/main/screenshots/start.png)]
+![Запуск][(https://github.com/monkeydluffyd/FastAPI-Example-Custom-Shop/blob/main/screenshots/start.png)
 
 ## 2. Интерфейс пользователя
 
